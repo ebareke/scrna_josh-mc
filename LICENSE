@@ -1,0 +1,67 @@
+RESTRICTED RESEARCH USE LICENSE
+================================
+
+Copyright (c) 2026 Eric Bareke. All rights reserved.
+
+Project: Single-cell RNA-seq analysis of E9.5 mouse spliceosome mutants
+         (Eftud2, Sf3b4) versus Control — interactive dashboard, analysis
+         code, derived figures and summary data.
+
+This work contains UNPUBLISHED research data and analyses. It is made
+available solely for the private, internal research use of the following
+named individuals and their immediate research teams at McGill University
+("Permitted Users"):
+
+  - Professor Loydie A. Majewska      <loydie.majewska@mcgill.ca>
+  - Dr. Joshua Moore                  <joshua.moore@mcgill.ca>
+  - Dr. Marie-Claude Beauchamp        <marie-claude.beauchamp2@mcgill.ca>
+  - Dr. Eric Bareke                   <eric.bareke@mcgill.ca>
+
+GRANT OF LICENSE
+----------------
+Subject to the conditions below, the copyright holder grants the Permitted
+Users a non-exclusive, non-transferable, royalty-free license to access,
+view and use this repository, its dashboard, code, figures and derived
+data for the sole purpose of the collaborative research project described
+above.
+
+CONDITIONS AND RESTRICTIONS
+---------------------------
+1. NO REDISTRIBUTION. The Permitted Users shall not copy, publish, post,
+   share, sublicense, or otherwise distribute this repository or any part
+   of it (including figures, tables, derived data, or code) to any third
+   party without the prior written consent of the copyright holder.
+
+2. NO PUBLIC DISCLOSURE OF DATA. The underlying data are unpublished.
+   Results may not be presented, published, or otherwise disclosed
+   publicly except as part of an agreed joint publication by the project
+   collaborators, with appropriate authorship and acknowledgement.
+
+3. RESEARCH USE ONLY. The materials may be used only for non-commercial
+   academic research. No commercial use is permitted.
+
+4. ATTRIBUTION. Any internal use, presentation, or eventual publication
+   that relies on these analyses must acknowledge Eric Bareke and cite the
+   project as described in CITATION.cff.
+
+5. CONFIDENTIALITY. Permitted Users shall treat this repository and its
+   contents as confidential and take reasonable measures to prevent
+   unauthorized access.
+
+TERMINATION
+-----------
+This license terminates automatically upon any breach of the conditions
+above, or upon written notice from the copyright holder. Upon termination,
+the Permitted User shall cease all use and destroy any local copies.
+
+NO WARRANTY
+-----------
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE MATERIALS OR THEIR USE.
+
+For permissions beyond the scope of this license, contact:
+Eric Bareke <eric.bareke@mcgill.ca>, Department of Human Genetics,
+McGill University.

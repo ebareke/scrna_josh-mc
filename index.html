@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spliceosome &amp; Neural Crest — E9.5 scRNA-seq Atlas (Eftud2 · Sf3b4 · Control)</title>
+<meta name="description" content="Interactive single-cell RNA-seq dashboard comparing E9.5 mouse Eftud2 and Sf3b4 spliceosome mutants against Control: cell-type composition, differential expression, pseudo-bulk, functional enrichment and splicing ratios.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+</head>
+<body>
+
+<header class="site">
+  <div class="brandrow">
+    <div class="brand">
+      <h1>E9.5 Mouse Single-Cell Atlas — Spliceosome Mutants <span class="genes"><span class="gene e">Eftud2</span> · <span class="gene s">Sf3b4</span> · <span class="gene c">Control</span></span></h1>
+      <div class="sub">Systematic, side-by-side comparison of two craniofacial-spliceosomopathy mutants against a wild-type baseline across whole-embryo cell types and neural-crest sub-types. Each condition pools two biological replicates.</div>
+      <div class="legend">
+        <span class="it"><span class="dot c"></span> Control — wild-type reference</span>
+        <span class="it"><span class="dot e"></span> <i>Eftud2</i> mutant</span>
+        <span class="it"><span class="dot s"></span> <i>Sf3b4</i> mutant</span>
+      </div>
+    </div>
+    <div class="credit">
+      <div><b>Bareke Lab analysis</b></div>
+      <div>Majewska / Moore collaboration</div>
+      <div>McGill University</div>
+      <div style="margin-top:6px"><span class="badge">E9.5 · mouse · 10x</span></div>
+    </div>
+  </div>
+  <div class="ds-toggle" id="dsToggle">
+    <button data-ds="ALL_CELLS" class="active">All cell types<span class="small">whole-embryo atlas</span></button>
+    <button data-ds="NEURAL_CREST_CELLS">Neural crest<span class="small">NCC sub-types</span></button>
+  </div>
+</header>
+
+<div class="wrap">
+  <nav class="side" id="nav"></nav>
+  <main id="main">
+    <section class="section active" data-sec="overview"></section>
+    <section class="section" data-sec="composition"></section>
+    <section class="section" data-sec="de"></section>
+    <section class="section" data-sec="pseudobulk"></section>
+    <section class="section" data-sec="enrichment"></section>
+    <section class="section" data-sec="splicing"></section>
+    <section class="section" data-sec="velocity"></section>
+    <section class="section" data-sec="methods"></section>
+  </main>
+</div>
+
+<div class="lb" id="lb"><span class="x" id="lbx">&times;</span><img id="lbimg" alt=""><div class="cap" id="lbcap"></div></div>
+
+<footer class="site">
+  <div>Analysis &amp; dashboard by <b>Eric Bareke</b> (eric.bareke@mcgill.ca), Human Genetics, McGill University. Data generated in collaboration with the laboratory of Prof. Loydie A. Majewska, Dr. Joshua Moore and Dr. Marie-Claude Beauchamp.</div>
+  <div style="margin-top:6px">Restricted research use — see the project <a href="https://github.com/ebareke/scrna_josh-mc">repository</a> and LICENSE. Unpublished data; do not redistribute. &copy; 2026 Eric Bareke.</div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

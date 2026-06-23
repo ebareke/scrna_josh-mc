@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use these analyses, the dashboard, or the derived data, please cite the project as below (restricted use — see LICENSE)."
+title: "E9.5 Mouse Single-Cell Atlas of Spliceosome Mutants (Eftud2, Sf3b4) vs Control: Interactive Dashboard and Analysis Pipeline"
+abstract: >-
+  Single-cell RNA-seq comparison of E9.5 mouse embryos across three
+  conditions — wild-type Control and two craniofacial spliceosomopathy
+  mutants (Eftud2 and Sf3b4), each pooling two biological replicates.
+  The repository provides the R analysis pipelines, derived summary data
+  and an interactive dashboard covering cell-type composition,
+  differential expression (per cell type and pseudo-bulk), functional
+  enrichment, splicing ratios and RNA velocity, for both the whole-embryo
+  atlas (all cell types) and the neural-crest compartment (NCC sub-types).
+type: software
+authors:
+  - family-names: Bareke
+    given-names: Eric
+    email: eric.bareke@mcgill.ca
+    affiliation: "Department of Human Genetics, McGill University"
+    orcid: ""
+contact:
+  - family-names: Bareke
+    given-names: Eric
+    email: eric.bareke@mcgill.ca
+keywords:
+  - single-cell RNA-seq
+  - scRNA-seq
+  - spliceosome
+  - Eftud2
+  - Sf3b4
+  - neural crest
+  - mouse embryo
+  - E9.5
+  - RNA velocity
+  - differential expression
+license: LicenseRef-Restricted-Research-Use
+version: "1.0.0"
+date-released: "2026-06-23"
+url: "https://ebareke.github.io/scrna_josh-mc/"
+repository-code: "https://github.com/ebareke/scrna_josh-mc"
